@@ -103,7 +103,6 @@ post_list = PostListView.as_view()
 
 
 class PostDetailView(DetailView):
-    print("wilson is a Pastor")
     model = Post
     template_name = "post-detail.html"
     context_object_name = "post"
